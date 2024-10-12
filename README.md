@@ -1,2 +1,2 @@
 # Legiscrapers
-Web scrapers for collecting legislative and election data.
+Web scrapers that specialize in collecting legislative and election data.
