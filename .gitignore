@@ -1,3 +1,10 @@
 .python-version
+<<<<<<< HEAD
+__py_cache__
+*.pyc
+*.pyo
+||||||| 2de7df0
+=======
 secrets.json
 .ipynb_checkpoints/
+>>>>>>> f8a47a9502a8b932cadf7656dd91c83aa3d931f0
