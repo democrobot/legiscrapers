@@ -41,6 +41,7 @@ def scrape_pa_senate_committees():
     # Caching to address rate limiting
 
     pa_senate_committees_file = pathlib.Path( urls['pa_senate_committees']['local'])
+    print(pa_senate_committees_file)
 
     if pa_senate_committees_file.is_file() and \
         datetime.fromtimestamp(pa_senate_committees_file.stat().st_mtime).date() == datetime.now().date():
